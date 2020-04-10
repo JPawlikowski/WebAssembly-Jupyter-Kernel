@@ -1,0 +1,8 @@
+{
+    "argv": ["python", "-m",
+             "wasmerKernel", "-f",
+             "{connection_file}"],
+    "display_name": "wasmerKernel",
+    "name": "wasmerKernel",
+    "language": "python"
+   }

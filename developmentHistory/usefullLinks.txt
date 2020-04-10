@@ -1,0 +1,21 @@
+Jupyter Fortan Kernel repository (usefull as a reference):
+https://github.com/ZedThree/jupyter-fortran-kernel
+
+Jupyter C Kernel repository:
+https://github.com/brendan-rius/jupyter-c-kernel
+
+Making Kernels for jupyter:
+https://jupyter-client.readthedocs.io/en/stable/kernels.html
+
+Web assembly interpreters:
+https://github.com/mohanson/pywasm
+https://github.com/athre0z/wasm
+
+Jupyter Kernel Calculator:
+https://blog.jupyter.org/building-a-calculator-jupyter-kernel-4aed5764a295
+
+Jupyter Kernel for Assembly interpreter:
+https://github.com/DeepHorizons/iarm
+
+Basic kernel:
+https://ipython-books.github.io/16-creating-a-simple-kernel-for-jupyter/

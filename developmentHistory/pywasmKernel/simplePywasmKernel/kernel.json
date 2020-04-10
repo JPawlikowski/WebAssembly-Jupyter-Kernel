@@ -1,0 +1,8 @@
+{
+    "argv": ["python", "-m",
+             "simplePywasmKernel", "-f",
+             "{connection_file}"],
+    "display_name": "simplePywasmkernel",
+    "name": "simplePywasmkernel",
+    "language": "python"
+   }

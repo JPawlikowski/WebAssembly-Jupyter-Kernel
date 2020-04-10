@@ -1,0 +1,32 @@
+WebAssembly kernel installation steps and notes:
+
+
+Requirements:
+jupyter
+python3
+ipykernel
+watb - clone from https://github.com/WebAssembly/wabt
+(follow build steps)
+(add wat2wasm binary to path)
+pywasm - ref from https://github.com/mohanson/pywasm
+
+to install:
+-> jupyter kernelspec install --user wasmkernel
+(note 'wasmkernel' is directory name which contains the kernel.json information file)
+
+start jupyter notebook with:
+-> jupyter notebook
+
+select a new notebook (top right) and select 'wasmkernel'
+
+all code cells are treated as .wat content
+
+to list currently installated kernels:
+-> jupyter kernelspec list
+
+2 Possible Cell headers: 
+*MODULE*
+	Houses all exported webassembly functions
+
+#EXEC*
+	Call functions with parameters
